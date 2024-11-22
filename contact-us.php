@@ -16,7 +16,7 @@
                 $email = sanitize_email($_POST['email']);
                 $title = sanitize_text_field($_POST['title']);
                 $description = sanitize_textarea_field($_POST['description']);
-                
+
                 // Prepare email content
                 $to = 'devavology12@gmail.com'; // Sends to site admin email by default
                 $subject = "New Contact Us Form Submission: " . $title;
@@ -79,4 +79,5 @@
     </div>
 </div>
 </main>
+
 <?php get_footer(); ?>
