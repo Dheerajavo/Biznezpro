@@ -1,0 +1,111 @@
+@media screen and (max-width:1200px){
+    .cont-head h2 {
+        font-size: 22px;
+    }
+    ul.mod-list li a {
+        margin-right: 3px;
+    }
+    .mod-wrap {
+        padding: 30px 0;
+    }
+}
+@media screen and (max-width:991px){
+    .tab-content-main .grid {
+        grid-template-columns:100%;
+    }
+    .tab-content-main .nav-tabs {
+        display: block;
+        white-space: nowrap;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+    }
+    .tab-content-main .nav-tabs li.nav-item {
+        margin: 0 5px 10px;
+        display: inline-block;
+        scroll-snap-align: center;
+    }
+    a#Log-tab {
+        margin-top: 10px;
+    }
+    .cont-head h2 {
+        font-size: 18px;
+    }
+   
+}
+@media screen and (max-width:768px){
+    .top-bar-wrap {
+        grid-template-columns: 1fr 1fr;
+    }
+    .mod-wrap .card-body .grid {
+        grid-template-columns: 100%;
+    }
+}
+@media screen and (max-width:575px) {
+    span.menu-toggle {
+        position: absolute;
+        right: -30px;
+        top: 20px;
+    }
+    .dash-wrapper.toggle .logo-holder {
+        display: block;
+    }
+    .dash-wrapper.toggle .tooltion-title {
+        display: block;
+    }
+    .dash-wrapper.toggle .copyright {
+        display: block;
+    }
+    .dash-wrapper.toggle .page-sidebar {
+        width: 250px;
+    }
+    .dash-wrapper.toggle a.dash-nav {
+        padding: 5px 15px;
+    }
+    .dash-wrapper.toggle {
+        padding-inline: 15px;
+    }
+    .dash-wrapper {
+        padding-inline: 15px;
+    }
+    .main-content-area {
+        padding-left: 0;
+        padding-top: 45px;
+    }
+    .page-sidebar {
+        transform: translateX(-100%);
+    }
+    .page-sidebar.open {
+        transform: translateX(0);
+    }
+    .hero-banner h1 {
+        font-size: 32px;
+        max-width: 360px;
+    }
+    .tab-content-main {
+        padding: 20px 0;
+    }
+    .dash-wrapper.toggle  .doc-pages .svg-ico {
+        display: none;
+    }
+    .dash-wrapper.toggle .sign_out  .sign-out-details {
+        padding: 5px 15px;
+        border: 1px solid #f5f5f5;
+        flex-direction: row;
+    }
+    .dash-wrapper.toggle .sign_out .sign-out-details a.sign_out-icon {
+        padding:0 0 0 15px;
+    }
+    .dash-wrapper.toggle .sign_out .sign-out-details a.sign_out-icon::before{
+        opacity: 1;
+    }
+    .dash-wrapper.toggle .sign_out .sign-out-details .profile-details {
+        display:block;
+    }
+    .dash-wrapper.toggle .sign_out .sign-out-details a.dash-nav {
+        width: auto;
+        padding: 0;
+    }
+    .dash-wrapper.toggle .doc-pages a.dash-nav {
+        padding: 5px 10px;
+    }
+}
