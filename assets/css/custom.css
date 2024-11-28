@@ -1,0 +1,173 @@
+/* hover on text */
+.txt-hv:hover {
+    text-decoration: underline;
+}
+
+.blue-btn-hv:hover {
+    color: var(--theme1);
+    background: #fff;
+    border: 1px solid var(--theme1);
+}
+
+/*Start */
+.logo_result a.logo {
+    margin-bottom: 0px;
+}
+
+/* For NEW header */
+.sign_out li.menu-item {
+    margin: 0;
+}
+
+/* for default pages */
+article.hentry.entry header.entry-header.alignwide {
+    text-align: center;
+    margin: 100px 0 30px 0;
+}
+
+article.hentry.entry {
+    padding: 0 30px;
+}
+
+/* for Sign In */
+.password-wrapper {
+    position: relative;
+}
+
+.toggle-password {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.sign_in button.sign-btn {
+    width: 100%;
+    border: 1px solid #eee;
+    padding: 8px 15px;
+    border-radius: 30px;
+    font-size: 14px;
+    text-align: center;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background: transparent;
+    color: black;
+    transition: all 0.2s ease-in-out;
+}
+
+.sign_in button.sign-btn:hover {
+    background: var(--theme1);
+    color: #fff;
+}
+
+.forget-paassword-btn {
+    color: #000;
+}
+
+/* for forget pass modal */
+h4.forget_text {
+    text-align: center;
+    margin: 0 0 25px;
+    font-size: 24px;
+}
+
+#password-reset-form button.primary-btn {
+    display: block;
+    margin: 0 auto;
+    max-width: fit-content;
+}
+
+/* for profile */
+.mod-wrap .card-body .grid .item {
+    height: 100%;
+}
+
+.user-info {
+    height: 100%;
+}
+
+.become_editor button.primary-btn {
+    width: 100%;
+}
+
+.mod-wrap .card-body .grid .item.bcm_editor {
+    grid-column: 1/-1;
+}
+
+.become_editor button.primary-btn {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 30px;
+}
+
+.tab-content-main .nav-link:focus-visible {
+    outline: 0px solid var(--theme1);
+    border-color: var(--theme1);
+}
+
+
+/* for User Detail */
+.user-details-main h1 {
+    margin: 0 0 10px;
+}
+
+table.user-details-table {
+    width: 100%;
+}
+
+
+
+table.user-details-table tr th {
+    padding: 20px 10px;
+}
+
+table.user-details-table,
+table.user-details-table td,
+table.user-details-table th {
+    border: 1px solid #F5F5F5;
+    padding: 10px;
+}
+
+table.user-details-table tr th.us_action {
+    text-align: center;
+}
+
+table#user-details-table tr td.us_action_btn {
+    text-align: center;
+}
+
+table.user-details-table tr td.us_action_btn {
+    text-align: center;
+}
+
+/* table.user-details-table tr td button {
+    margin: 3px 10px;
+} */
+table.user-details-table tr td button,
+table.user-details-table tr td a {
+    margin: 3px 10px;
+    padding: 4px 16px;
+    max-width: fit-content;
+}
+
+
+
+.cap_text {
+    text-transform: capitalize;
+}
+
+.industry-content .nav-tabs.ind-scroll {
+    padding-right: 10px;
+}
+
+.profile-details p {
+    margin: 0;
+    font-size: 14px;
+    color: #00000070;
+    text-transform: capitalize;
+}
